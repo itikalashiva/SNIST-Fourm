@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:id="@+id/relative">
+
+    <android.support.v7.widget.RecyclerView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rcv"></android.support.v7.widget.RecyclerView>
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/action_button"
+        fab:menu_icon="@drawable/fab_plus_icon"
+        fab:menu_colorNormal="#F44336"
+        fab:menu_colorPressed="@color/colorAccent"
+        fab:menu_colorRipple="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+
+
+
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/button_ak"
+            fab:fab_colorNormal="#00E5FF"
+            fab:fab_colorPressed="@color/colorAccent"
+            fab:fab_colorRipple="@color/colorPrimary"
+            fab:fab_size="mini"
+            android:src="@drawable/ic_description_black_24dp"
+            fab:fab_label="Forum"
+            />
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/button_deep"
+            fab:fab_colorNormal="#69F0AE"
+            fab:fab_colorPressed="@color/colorAccent"
+            fab:fab_colorRipple="@color/colorPrimary"
+            fab:fab_size="mini"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            fab:fab_label="About Us"/>
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/button_rams"
+            fab:fab_colorNormal="#FF6E40"
+            fab:fab_colorPressed="@color/colorAccent"
+            fab:fab_colorRipple="@color/colorPrimary"
+            fab:fab_size="mini"
+            android:src="@drawable/ic_exit_to_app_black_24dp"
+            fab:fab_label="Logout"/>
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

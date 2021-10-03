@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "559841476549",
+    "firebase_url": "https://form-8ce8b.firebaseio.com",
+    "project_id": "form-8ce8b",
+    "storage_bucket": "form-8ce8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559841476549:android:2db78cc3abedf513",
+        "android_client_info": {
+          "package_name": "com.example.shiva.forum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559841476549-m1e87lhvhuv2fevvqd8cc9l1bpn8i4e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxRy4iczLJNWtFlhSB4KNGBWhIgADCgY4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

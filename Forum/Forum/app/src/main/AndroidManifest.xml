@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shiva.forum">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signin" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Branch" />
+        <activity android:name=".Cse3sub" />
+        <activity android:name=".Os" />
+        <activity android:name=".Cse2sub"></activity>
+        <activity android:name=".Cseyears"></activity>
+        <activity android:name=".Toc"></activity>
+        <activity android:name=".Cse4sub"></activity>
+        <activity android:name=".Cse1sub"></activity>
+        <activity android:name=".Cn"></activity>
+        <activity android:name=".Or"></activity>
+        <activity android:name=".Ooad"></activity>
+        <activity android:name=".Cp"></activity>
+        <activity android:name=".Ep1"></activity>
+        <activity android:name=".Ec1"></activity>
+        <activity android:name=".Ep2"></activity>
+        <activity android:name=".Ec2"></activity>
+        <activity android:name=".Dsc"></activity>
+        <activity android:name=".Oopj"></activity>
+        <activity android:name=".Mfcs"></activity>
+        <activity android:name=".Stld"></activity>
+        <activity android:name=".Edc"></activity>
+        <activity android:name=".Bee"></activity>
+        <activity android:name=".Mefa"></activity>
+        <activity android:name=".Dc"></activity>
+        <activity android:name=".PS"></activity>
+        <activity android:name=".Compi"></activity>
+        <activity android:name=".Daa"></activity>
+        <activity android:name=".Dbms"></activity>
+        <activity android:name=".St"></activity>
+        <activity android:name=".Ms"></activity>
+        <activity android:name=".Mc"></activity>
+        <activity android:name=".Dwdm"></activity>
+        <activity android:name=".Cvipr"></activity>
+        <activity android:name=".Aca"></activity>
+        <activity android:name=".Sl"></activity>
+    </application>
+
+</manifest>
